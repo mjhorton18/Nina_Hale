@@ -1,0 +1,92 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+	padding:0;
+	border: 0;
+	margin: 0;
+}
+
+body {
+	width: 930px;
+	margin: 0 auto 50px auto;
+	background: #E3E3ED;
+	font-family:'Economica' sans-serif;
+	line-height: 1.5em;
+	text-align: justify;
+}
+/* Header styling */
+header {
+	font-family: 'Amatic SC', cursive;
+	width: 1000px;
+	background-color: #E3E3ED;
+	font-size: 40px;
+	text-align: center;
+	padding: 50px 50px 50px 0;
+	margin: 0 auto 0 auto;
+	position: fixed;
+	z-index: 1;
+	letter-spacing: .5em;
+}	
+
+div {
+	position: fixed;
+	display: inline;
+	text-align: right;
+	margin-top: 125px;
+	padding: 0 25px 25px 15px;
+	width: 250px;
+	float: left;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 21px;
+	font-weight: normal;
+}
+
+div h3{
+	font-family:'Amatic SC', cursive;
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+/* Initials Circle Styling */
+#circle {
+	font-family: 'Amatic SC', cursive;
+	background-image: url("outstandinginherfield.jpeg");
+	margin: 0 0 5px auto;
+	text-align: center;	
+	font-size: 70px;
+	font-weight: normal;
+	line-height: 1.5em;
+	color: #FFFFFF;
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 50%;
+}
+
+main {
+	font-size: 18px;
+	margin-top: 130px;
+	width: 600px;
+	padding: 0 25px 25px 25px;
+	display: inline;
+	position: relative;
+	float: right;
+	border-left: 1px dotted #888888;
+	font-weight: normal;
+}
+
+main h2{
+	font-family: 'Amatic SC', cursive;
+	letter-spacing: .1em
+}
+
+main p {
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+}
+ul {
+	list-style-position: inside;
+	padding-left: 25px;
+	font-size: 17px;
+}
